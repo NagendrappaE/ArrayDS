@@ -157,3 +157,52 @@ A)the values 10
 B)the values 20
 C)the values 30
 D)the values 40
+
+Q7)Choose the correct option/(s) for the below program.
+public class MainProgram3 {
+
+	public static void main(String[] args) {
+
+		String name = "nagendra";
+
+		name.concat("ravi");
+
+		System.out.println(name);
+
+	}
+
+}
+
+
+A)It will print nagendra.
+B)It will print nagendraravi.
+C)create only one object in string constant pool.
+D)creates 2  objects in string constant pool.
+
+
+Q8)Choose the correct option/(s) for the below program.
+
+package io.paycorp.programs;
+
+public class Adder {
+
+	public void add(int a, int b) {
+		System.out.println("sum=" + (a + b));
+	}
+
+	public void add(double a, double b) {
+		System.out.println("sum=" + (a + b));
+	}
+
+	public static void main(String[] args) {
+
+		Adder a = new Adder();
+		a.add(1, 2);
+	}
+
+}
+
+A)Compile time error
+B)sum=3.0
+C)sum=3
+D)it is example of method overriding
