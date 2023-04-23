@@ -182,25 +182,37 @@ D)creates 2  objects in string constant pool.
 
 Q8)Choose the correct option/(s) for the below program.
 
+/**
+ * 
+ */
 package io.paycorp.programs;
 
+/**
+ * @author nagendrappae
+ *
+ */
 public class Adder {
 
-	public void add(int a, int b) {
+	public Adder() {
+
+	}
+
+	public void Adder(int a, int b) {
 		System.out.println("sum=" + (a + b));
 	}
 
-	public void add(double a, double b) {
+	public void Adder(double a, double b) {
 		System.out.println("sum=" + (a + b));
 	}
 
 	public static void main(String[] args) {
 
 		Adder a = new Adder();
-		a.add(1, 2);
+		a.Adder(1, 2);
 	}
 
 }
+
 
 A)Compile time error
 B)sum=3.0
