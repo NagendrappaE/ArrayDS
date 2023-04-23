@@ -218,3 +218,29 @@ A)Compile time error
 B)sum=3.0
 C)sum=3
 D)it is example of method overriding
+
+Q9)The output of the below program
+package io.paycorp.programs;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+
+		Set<Integer> set1 = new HashSet();
+		set1.addAll(Arrays.asList(new Integer[] { 1, 2, 2 }));
+		set1.addAll(Arrays.asList(new Integer[] { 3, 2, 2 }));
+
+		System.out.println("the hasSet " + set1.size());
+
+	}
+}
+
+
+A)6
+B)Compile time error
+C)3
+D)4
