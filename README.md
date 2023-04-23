@@ -125,3 +125,35 @@ A)HashMap
 B)ConcurrentHashMap
 C)Linked Hash map
 D)Tree Map
+
+Q6)Choose the correct output of below program.
+package io.paycorp.programs;
+
+
+public class Student {
+
+	public Student() {
+		z=40;
+
+	}
+
+	int z = 10;
+
+	public void test(int z) {
+		z = 20;
+		System.out.println(" the values " + z);
+	}
+
+	public static void main(String[] args) {
+		Student s = new Student();
+
+		s.test(30);
+	}
+
+}
+
+
+A)the values 10
+B)the values 20
+C)the values 30
+D)the values 40
